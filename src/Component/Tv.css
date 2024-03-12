@@ -1,0 +1,37 @@
+.tv {
+    padding: 20px;
+    text-align: center;
+  }
+  .tv h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .tv-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .tv-item {
+    max-width: 300px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .tv-item img {
+    max-width: 100%;
+    height: auto;
+  }
+  .tv-item h3 {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  .tv-item p {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  .tv-item .price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #007bff; /* Blue color for price */
+  }
